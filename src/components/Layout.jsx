@@ -5,7 +5,7 @@ export default function Layout(props) {
       <h1 className="text-gradient">30ToFit</h1>
       <p>
         <strong>
-          The 30 day Workout from home program for begginers by ESuances
+          The 30 day Workout from home program for beginers by ESuances
         </strong>
       </p>
     </header>

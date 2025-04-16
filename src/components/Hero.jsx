@@ -26,7 +26,7 @@ export default function Hero() {
         </div>
         <div className="rule-item">
           <p>
-            <b>Repeticions</b>
+            <b>Reps</b>
           </p>
           <p>
             Every repeteicion should be done with a slow and controlled

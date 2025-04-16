@@ -6,7 +6,7 @@ export default function Grid() {
   const selectedWorkout = 4; // This should be set based on the selected workout
 
   return (
-    <div className="training-grid-plan">
+    <div className="training-plan-grid">
       {Object.keys(training_plan).map((workout, workoutIndex) => {
         const type =
           workoutIndex % 3 === 0

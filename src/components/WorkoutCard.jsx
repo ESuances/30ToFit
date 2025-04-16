@@ -1,4 +1,5 @@
 import React from "react";
+import Modal from "./Modal";
 
 export default function WorkoutCard(props) {
   // Exercise information, posibly add 3D model of the exercise
@@ -6,8 +7,17 @@ export default function WorkoutCard(props) {
 
   const { warmup, workout } = trainingPlan || {};
 
+  const showExcerciseDescription = {
+    name: " asdasd",
+    description: "adadsdasd",
+  };
+
   return (
     <div className="workout-container">
+      <Modal
+        showExcerciseDescription={showExcerciseDescription}
+        handleCloseModal={() => {}}
+      />
       <div className="workout-card card">
         <div className="plan-card-header">
           <p>Day {dayNum}</p>
@@ -32,14 +42,46 @@ export default function WorkoutCard(props) {
               <div className="exercise-name">
                 <p>
                   {warmupIndex + 1}. {warmupExercise.name}
+                  <button className="help-icon">
+                    <i className="fa-regular fa-circle-question" />
+                  </button>
                 </p>
               </div>
               <p className="exercise-info">{warmupExercise.sets}</p>
-              <p className="exercise-info">{warmupExercise.rets}</p>
+              <p className="exercise-info">{warmupExercise.reps}</p>
               <input className="weight-input" placeholder="N/A" disabled />
             </React.Fragment>
           );
         })}
+      </div>
+      <div className="workout-grid">
+        <div className="exercise-name">
+          <h4>Workout</h4>
+        </div>
+        <h6>Sets</h6>
+        <h6>Reps</h6>
+        <h6 className="weight-input">Weight</h6>
+        {workout.map((workoutExercise, workoutIndex) => {
+          return (
+            <React.Fragment key={workoutIndex}>
+              <div className="exercise-name">
+                <p>
+                  {workoutIndex + 1}. {workoutExercise.name}
+                  <button className="help-icon">
+                    <i className="fa-regular fa-circle-question" />
+                  </button>
+                </p>
+              </div>
+              <p className="exercise-info">{workoutExercise.sets}</p>
+              <p className="exercise-info">{workoutExercise.reps}</p>
+              <input className="weight-input" placeholder="N/A" disabled />
+            </React.Fragment>
+          );
+        })}
+      </div>
+      <div className="workout-buttons">
+        <button>Save & Exit</button>
+        <button disabled={true}>Complete</button>
       </div>
     </div>
   );
