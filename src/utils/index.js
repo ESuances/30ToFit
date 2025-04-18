@@ -422,81 +422,95 @@ export const workoutProgram = {
 };
 
 export const exerciseDescriptions = {
-  // Existing exercises with modifications
-  "Hip thrust":
-    "Rest your upper back on a stable surface, drive through your heels to lift hips upward while squeezing glutes. Add resistance using a backpack if needed.",
-  "Bulgarian split squat":
-    "Stand facing away from a chair, place one foot on the seat behind you, lower into a lunge while keeping torso upright.",
-  "Goblet squat":
-    "Hold a weighted object (like a backpack) close to your chest, squat down while maintaining upright torso position.",
-
-  // New home exercise descriptions
-  "Doorframe towel rows":
-    "Loop a towel over a secure door handle. Lean back holding both ends, pull chest towards doorframe while squeezing shoulder blades.",
-  "Scapula push-ups (elevated)":
-    "Place hands on elevated surface, maintain straight arms and retract/protract shoulder blades through movement.",
-  "Inverted rows (under table)":
-    "Lie under sturdy table, grip edge with hands, pull chest to table while keeping body straight from heels to shoulders.",
-  "Towel resistance rows":
-    "Wrap towel around a pole/column, hold ends and step back to create tension. Perform rowing motion while maintaining tension.",
-  "Backpack reverse flyes":
-    "Hold weighted backpack with both hands, hinge at hips, raise arms sideways to shoulder height while squeezing rear delts.",
-  "Towel bicep curls":
-    "Stand on towel ends with feet, grip other ends with hands. Curl upward while maintaining tension in towel.",
-  "Isometric wall curls":
-    "Stand facing wall, press palms against wall at curl position. Maintain continuous tension for specified duration.",
-  "Bodyweight good mornings":
-    "Stand with hands behind head, hinge at hips while keeping back straight, lower torso until parallel to floor.",
-  "Prisoner squats":
-    "Perform squats with hands interlaced behind head, emphasizing upright torso and controlled movement.",
-  "Pistol squat progressions":
-    "Assisted single-leg squats using chair for support. Lower with control and push through heel to stand.",
-  "Elevated split squats":
-    "Place rear foot on elevated surface (12-18), perform lunges with emphasis on front leg quad engagement.",
-  "Jumping squats":
-    "Explosive squat variation: Lower into squat then jump vertically, landing softly and immediately repeating.",
-  "Stair calf raises":
-    "Stand on stair edge with heels hanging off. Raise up on toes, pause at top, lower through full range of motion.",
-  "Arm circles variations":
-    "Stand with arms extended sideways, make small controlled circles forward/backward to warm up shoulders.",
-  "Wall push-ups":
-    "Beginner variation: Stand facing wall, perform push-ups against vertical surface to build chest strength.",
-  "Wide-grip push-ups":
-    "Hands placed wider than shoulder width to emphasize chest and shoulder development.",
-  "Chair dips":
-    "Use stable chair: Sit on edge, grip front edge with hands, lower body by bending elbows to 90 degrees.",
-  "Pike push-ups":
-    "Elevate hips into inverted V position, perform push-up variation targeting shoulders and upper chest.",
-  "Towel tricep extensions":
-    "Hold towel behind back with both hands, lower towel behind head then extend arms upward.",
-  "Plank to push-up":
-    "Transition from forearm plank to push-up position one arm at a time, maintaining core stability.",
-  "Resistance band face pulls":
-    "Anchor band at eye level, pull ends towards face while rotating palms to face ears.",
-  "Superman holds":
-    "Lie prone with arms extended, lift arms/chest and legs off ground simultaneously. Hold for time.",
-  "Towel lat pullovers":
-    "Drape towel over high anchor point, lie on back and pull towel ends downward toward thighs.",
-  "Incline bodyweight rows":
-    "Set up under angled surface (table), adjust body angle to modify row difficulty.",
-  "Doorframe reverse flyes":
-    "Grip doorframe edges at shoulder height, step through doorway and pull arms back.",
-  "Backpack shrugs":
-    "Hold weighted backpack with both hands, elevate shoulders toward ears with controlled motion.",
-  "Bodyweight lateral lunges":
-    "Step sideways into lunge, keeping toes forward and chest up. Push back to start position.",
-  "Jump lunges":
-    "Explosive lunge variation: Switch legs mid-air between reps for plyometric challenge.",
-  "Wall sit pulses":
-    "Maintain wall sit position while performing small upward/downward movements to increase burn.",
-  "Calf raises with backpack":
-    "Add weight using backpack while performing calf raises through full range of motion.",
-
-  // Updated existing descriptions
+  // Push exercises
+  "Around the worlds":
+    "Arm circles with extended arms, making large circular motions to warm up shoulders.",
+  "Scapula pushups":
+    "Pushup variation focusing on scapular movement - protract and retract shoulder blades while maintaining straight arms.",
   Pushups:
     "Maintain straight body line from head to heels. Lower chest to floor while maintaining 45-degree elbow angle.",
+  "Incline pushups":
+    "Hands elevated on surface to decrease difficulty. Maintain straight body line during movement.",
+  "Wide-arm pushups":
+    "Hands placed wider than shoulder width to emphasize chest activation.",
+  "Tricep dips on chair":
+    "Sit on edge of chair, hands gripping edge, lower body by bending elbows to 90 degrees.",
+  "Diamond pushups":
+    "Hands close together forming diamond shape with thumbs and index fingers, emphasizing triceps.",
+  "Pseudo planche pushups":
+    "Advanced variation with hands positioned back toward waist and torso leaning forward.",
   "Dips on chair":
     "Use two stable chairs: Support bodyweight between them, lower until elbows reach 90 degrees.",
+
+  // Pull exercises
+  "Wall bodyweight rows":
+    "Stand facing a wall, lean back and pull chest to wall using arm strength.",
+  "Scapula pull ups":
+    "Hang from bar and focus on depressing and retracting shoulder blades without bending elbows.",
+  "Superman hold":
+    "Lie prone and lift arms, chest and legs off ground, hold to strengthen lower back.",
+  "Bodyweight rows under table":
+    "Lie under sturdy table, grip edge and pull chest to table while keeping body straight.",
+  "Reverse snow angels":
+    "Lie prone and move arms in snow angel motion against floor resistance.",
+  "Towel curls":
+    "Stand on towel and curl upward against the resistance for bicep activation.",
+  "Leaning rear delt holds":
+    "Lean forward and hold arms out to sides to target rear deltoids.",
+  "Hammer grip towel curls":
+    "Towel curl variation with palms facing each other for different bicep emphasis.",
+  "Wall scapula shrugs":
+    "Stand facing wall, press hands against it and perform scapular shrugs.",
+
+  // Leg exercises
+  "Glute bridges":
+    "Lie on back with knees bent, lift hips by squeezing glutes while keeping ribs down.",
+  "Bodyweight squats":
+    "Feet shoulder-width apart, lower hips until thighs parallel to floor, keep chest up.",
+  "Single-leg glute bridges":
+    "Glute bridge performed on one leg to increase difficulty and unilateral strength.",
+  "Wall sit":
+    "Back against wall with thighs parallel to floor, hold position to build endurance.",
+  "Calf raises":
+    "Raise up on toes to strengthen calves, can be done on floor or edge of step.",
+  "Bodyweight lunges":
+    "Step forward and lower until both knees form 90-degree angles, alternate legs.",
+  "Walking lunges":
+    "Lunge variation where you walk forward between each lunge for dynamic movement.",
+  "Hamstring walkouts":
+    "Sit on floor and 'walk' forward using heels to engage hamstrings.",
+  "Calf raises on stairs":
+    "Perform calf raises with heels hanging off step for increased range of motion.",
+  "Bulgarian split squat using chair":
+    "Single-leg squat with rear foot elevated on chair for increased difficulty.",
+  "Side-lying leg lifts":
+    "Lie on side and lift top leg to target hip abductors.",
+  "Bodyweight hip thrust":
+    "Glute bridge variation with shoulders elevated on surface for greater range.",
   "Bodyweight RDLs":
     "Single-leg deadlift variation: Hinge at hips while maintaining neutral spine, tap floor with opposite hand.",
+  "Goblet squat using backpack":
+    "Hold weighted backpack close to chest while performing squats for added resistance.",
+
+  // Additional exercises from later weeks
+  "Doorframe towel rows":
+    "Loop towel over door handle, lean back and pull chest toward doorframe.",
+  "Towel resistance rows":
+    "Wrap towel around pole, create tension and perform rowing motion.",
+  "Backpack reverse flyes":
+    "Hold weighted backpack, hinge at hips and raise arms sideways.",
+  "Pistol squat progressions":
+    "Assisted single-leg squats using chair for support.",
+  "Jumping squats":
+    "Explosive squat variation with vertical jump between reps.",
+  "Wide-grip push-ups":
+    "Hands placed wider than shoulder width for chest emphasis.",
+  "Pike push-ups": "Hips elevated in inverted V position to target shoulders.",
+  "Plank to push-up":
+    "Transition from forearm plank to push-up position with control.",
+  "Incline bodyweight rows":
+    "Angled row variation using table or other surface.",
+  "Jump lunges": "Explosive lunge variation switching legs mid-air.",
+  "Wall sit pulses":
+    "Small movements while in wall sit position to increase intensity.",
 };
