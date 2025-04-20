@@ -5,8 +5,10 @@ import { workoutProgram as training_plan } from "../utils/index.js";
 export default function Grid() {
   const [savedWorkouts, setSavedWorkouts] = useState(null); // State to manage saved workouts
   const [selectedWorkout, setSelectedWorkout] = useState(null); // State to manage the selected workout
-  const completedWorkouts = []; // Number of completed workouts
-  const isLocked = false;
+  const completedWorkouts = Object.keys(savedWorkouts || {}).filter((value) => {
+    const entry = savedWorkouts[value];
+    return entry.isComplete; // Check if the workout is complete
+  }); // Number of completed workouts
 
   function handleSave(index, data) {
     // save to local storage and modify the saved workouts state
@@ -19,7 +21,7 @@ export default function Grid() {
     };
     setSavedWorkouts(newObj); // Update the saved workouts state
     localStorage.setItem("30tofit", JSON.stringify(newObj)); // Save to local storage
-    setSavedWorkouts(null);
+    setSelectedWorkout(null);
   }
 
   function handleComplete(index, data) {
@@ -41,6 +43,12 @@ export default function Grid() {
   return (
     <div className="training-plan-grid">
       {Object.keys(training_plan).map((workout, workoutIndex) => {
+        const isLocked =
+          workoutIndex === 0
+            ? false
+            : !completedWorkouts.includes(`${workoutIndex - 1}`);
+        console.log(workoutIndex, isLocked);
+
         const type =
           workoutIndex % 3 === 0
             ? "Push"
@@ -81,6 +89,7 @@ export default function Grid() {
         return (
           <button
             onClick={() => {
+              if (isLocked) return; // If the workout is locked, do nothing
               setSelectedWorkout(workoutIndex); // Set the selected workout index
             }}
             className={"card plan-card  " + (isLocked ? "inactive" : "")}
