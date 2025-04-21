@@ -19,10 +19,11 @@ export default function Layout(props) {
         </a>
         <br />
         <p>
-          Styled with -
+          Styled with -{" "}
           <a href="https://fantacss.smoljames.com" target="_blank">
             FantaCSS
-          </a>
+          </a>{" "}
+          and some styles of my own :D
         </p>
       </p>
     </footer>
