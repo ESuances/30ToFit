@@ -317,6 +317,7 @@ button.help-icon {
 .rules-list {
   list-style: none;
   padding-left: 0;
+  padding: 1rem;
 }
 
 .rule-item {
@@ -329,6 +330,10 @@ button.help-icon {
 
 .rule-item p:first-child {
   margin-top: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
 }
 
 .rule-item p:last-child {
