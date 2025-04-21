@@ -14,7 +14,7 @@ export default function Layout(props) {
     <footer>
       <p>
         Built by{" "}
-        <a target="_blank" href="https://www.ESuances-netlify.app">
+        <a target="_blank" href="https://github.com/ESuances">
           ESuances
         </a>
         <br />
