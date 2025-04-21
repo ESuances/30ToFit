@@ -65,7 +65,7 @@ src/
 │ ├── Modal.js # Exercise demonstration modal
 │ └── ... # Other components
 ├── data/
-│ └── exercises.js # Exercise database
+│ └── index.js # Exercise database
 public/
 ├── images/ # Exercise demonstration images
 └── ... # Other assets
