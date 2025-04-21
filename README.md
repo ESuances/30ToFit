@@ -1,14 +1,14 @@
 markdown
 
-# 🏋️♂️ 30-Day Home Workout Program 🏋️♀️
+# 🏋️♂️ 30ToFit by ESuances 🏋️♀️
 
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)]()
 [![Build](https://img.shields.io/badge/Build-Passing-success?style=for-the-badge)]()
 
 A progressive bodyweight training program designed to help users get fit at home using **science-backed techniques** and **no equipment required**! 💪
 
-![Workout Program Preview](https://via.placeholder.com/800x400.png?text=Workout+Program+Preview+📱+💻) <!-- Replace with actual screenshot -->
+![Workout Program Preview](./public/images/page_preview.jpg)
 
 ## ✨ Features
 
