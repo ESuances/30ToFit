@@ -469,6 +469,7 @@ export const exerciseDescriptions = {
     "Feet shoulder-width apart, lower hips until thighs parallel to floor, keep chest up.",
   "Single-leg glute bridges":
     "Glute bridge performed on one leg to increase difficulty and unilateral strength.",
+  // ME QUEDE EN ESTE, DEBO CONTINUAR DESDE AQUI PARA LAS FOTOS
   "Wall sit":
     "Back against wall with thighs parallel to floor, hold position to build endurance.",
   "Calf raises":

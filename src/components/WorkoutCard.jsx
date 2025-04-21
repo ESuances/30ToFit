@@ -20,15 +20,7 @@ export default function WorkoutCard(props) {
   const [showExerciseDescription, setShowExerciseDescription] = useState(null);
 
   // Might delete this since I don't plan to add weights but 3D models of the exercises
-  const [weights, setweights] = useState(savedWeights || {}); // State to manage weights for each exercise
-
-  function handleAddWeight(title, weight) {
-    const newObj = {
-      ...weights,
-      [title]: weight,
-    };
-    setweights(newObj); // Update the weights state with the new weight for the exercise
-  }
+  const [weights] = useState(savedWeights || {}); // State to manage weights for each exercise
 
   return (
     <div className="workout-container">
@@ -57,7 +49,6 @@ export default function WorkoutCard(props) {
         </div>
         <h6>Sets</h6>
         <h6>Reps</h6>
-        <h6 className="weight-input">Weight</h6>
         {warmup.map((warmupExercise, wIndex) => {
           return (
             <React.Fragment key={wIndex}>
@@ -79,7 +70,6 @@ export default function WorkoutCard(props) {
               </div>
               <p className="exercise-info">{warmupExercise.sets}</p>
               <p className="exercise-info">{warmupExercise.reps}</p>
-              <input className="weight-input" placeholder="N/A" disabled />
             </React.Fragment>
           );
         })}
@@ -90,7 +80,6 @@ export default function WorkoutCard(props) {
         </div>
         <h6>Sets</h6>
         <h6>Reps</h6>
-        <h6 className="weight-input">Weight</h6>
         {workout.map((workoutExercise, wIndex) => {
           return (
             <React.Fragment key={wIndex}>
@@ -112,15 +101,6 @@ export default function WorkoutCard(props) {
               </div>
               <p className="exercise-info">{workoutExercise.sets}</p>
               <p className="exercise-info">{workoutExercise.reps}</p>
-              <input
-                value={weights[workoutExercise.name || ""]}
-                onChange={(e) => {
-                  handleAddWeight(workoutExercise.name, e.target.value); // Update the weight for the exercise
-                }}
-                className="weight-input"
-                placeholder="N/A"
-                disabled
-              />
             </React.Fragment>
           );
         })}
