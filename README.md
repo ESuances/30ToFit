@@ -32,16 +32,20 @@ A progressive bodyweight training program designed to help users get fit at home
 
 1. Clone the repository
 
-```bash
+```
 git clone https://github.com/your-username/home-workout-program.git
 Install dependencies
+```
 
-bash
+```
 npm install
 Start development server
+```
 
-bash
+```
 npm start
+```
+
 🏃♀️ Using the Program
 Daily Workouts: Follow the daily workout plan
 
@@ -54,16 +58,20 @@ Rest Days: Don't skip scheduled recovery days
 Progression: Increase intensity weekly
 
 🧩 Project Structure
+
+```
 src/
 ├── components/
-│   ├── Hero.js       # Program introduction and rules
-│   ├── Modal.js      # Exercise demonstration modal
-│   └── ...           # Other components
+│ ├── Hero.js # Program introduction and rules
+│ ├── Modal.js # Exercise demonstration modal
+│ └── ... # Other components
 ├── data/
-│   └── exercises.js  # Exercise database
+│ └── exercises.js # Exercise database
 public/
-├── images/           # Exercise demonstration images
-└── ...               # Other assets
+├── images/ # Exercise demonstration images
+└── ... # Other assets
+```
+
 🤝 Contributing
 We welcome contributions! Please follow these steps:
 
@@ -90,4 +98,3 @@ Open source contributors
 Everyone who believes in self-improvement 💖
 
 Made with ❤️ and DOMS (Delayed Onset Muscle Soreness)
-```
