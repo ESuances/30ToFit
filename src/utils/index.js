@@ -494,10 +494,10 @@ export const exerciseDescriptions = {
     "Hold weighted backpack close to chest while performing squats for added resistance.",
 
   // Additional exercises from later weeks
-  "Doorframe towel rows":
-    "Loop towel over door handle, lean back and pull chest toward doorframe.",
+  "Row in doorway":
+    "Hang from a doorway, lean back and pull chest toward doorway.",
   "Towel resistance rows":
-    "Wrap towel around pole, create tension and perform rowing motion.",
+    "Wrap towel around your feet, create tension and perform rowing motion.",
   "Backpack reverse flyes":
     "Hold weighted backpack, hinge at hips and raise arms sideways.",
   "Pistol squat progressions":

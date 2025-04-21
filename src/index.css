@@ -193,7 +193,7 @@ button.help-icon {
   width: 100%;
   margin: 0 auto;
   max-width: 600px;
-  max-height: 400px;
+  max-height: 600px;
   border-radius: var(--border-radius-large);
   border: 1px solid var(--border-primary);
   background: var(--background-primary);
@@ -243,5 +243,31 @@ button.help-icon {
   .plan-card-header i {
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.exercise-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+}
+
+/* Add responsive behavior */
+@media (max-width: 480px) {
+  .image-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .exercise-image {
+    height: 150px;
   }
 }
