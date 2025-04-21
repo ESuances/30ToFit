@@ -1,4 +1,4 @@
-30ToFit by ESuances 💪✅
+## 30ToFit by ESuances 💪✅
 
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)]()
@@ -44,18 +44,19 @@ Start development server
 npm start
 ```
 
-🏃♀️ Using the Program
-Daily Workouts: Follow the daily workout plan
+## 🏃♀️ Using the Program
 
-Exercise Demo: Click exercises to see demonstration images
+- **Daily Workouts:** Follow the daily workout plan
 
-Form Tips: Follow the 2-2-2 tempo guidelines
+- **Exercise Demo:** Click exercises to see demonstration images made by me using a character I plan to use for a videogame
 
-Rest Days: Don't skip scheduled recovery days
+- **Form Tips:** Follow the 2-2-2 tempo guidelines
 
-Progression: Increase intensity weekly
+- **Rest Days:** Don't skip scheduled recovery days
 
-🧩 Project Structure
+- **Progression:** Increase intensity weekly
+
+## 🧩 Project Structure
 
 ```
 src/
@@ -70,29 +71,30 @@ public/
 └── ... # Other assets
 ```
 
-🤝 Contributing
+## 🤝 Contributing
+
 We welcome contributions! Please follow these steps:
 
-Fork the project
+- Fork the project
 
-Create your feature branch (git checkout -b feature/AmazingFeature)
+- Create your feature branch (git checkout -b feature/AmazingFeature)
 
-Commit your changes (git commit -m 'Add some AmazingFeature')
+- Commit your changes (git commit -m 'Add some AmazingFeature')
 
-Push to the branch (git push origin feature/AmazingFeature)
+- Push to the branch (git push origin feature/AmazingFeature)
 
-Open a Pull Request
+- Open a Pull Request.
 
-📄 License
-Distributed under the MIT License. See LICENSE for more information.
+## 🙏 Acknowledgments
 
-🙏 Acknowledgments
-Science-based training principles
+- Science-based training principles
 
-Calisthenics community
+- Calisthenics community
 
-Open source contributors
+- Open source contributors
 
-Everyone who believes in self-improvement 💖
+- Everyone who believes in self-improvement 💖
 
-Made with ❤️ and DOMS (Delayed Onset Muscle Soreness)
+- Made with ❤️ and DOMS (Delayed Onset Muscle Soreness)
+
+## Don't forget to ⭐ the repo!
